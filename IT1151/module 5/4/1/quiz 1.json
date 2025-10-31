@@ -276,29 +276,361 @@
     },
     
     "q25": {
-      "type":"Fill in the blank",
-      "question": "",
-      "answer":""
+      "question": "Which twisted-pair wiring scheme places the green pair first in the connector pinout?",
+      "fill in the blank": "T568A",
+      "multiple choice": {
+        "A1": "T568A",
+        "A2": "T568B",
+        "A3": "RJ-11",
+        "A4": "Cat 6A",
+        "A5": "Crossover cable",
+        "A6": "Straight-through cable",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "T568A wiring scheme places the green pair first in the connector pinout.",
+        "answer": "true"
+      }
     },
     "q26": {
-      "type":"Fill in the blank",
-      "question": "",
-      "answer":""
+      "question": "Which twisted-pair wiring scheme places the orange pair first in the connector pinout?",
+      "fill in the blank": "T568B",
+      "multiple choice": {
+        "A1": "T568A",
+        "A2": "T568B",
+        "A3": "RJ-11",
+        "A4": "Cat 6A",
+        "A5": "Crossover cable",
+        "A6": "Straight-through cable",
+        "Answer": "A2"
+      },
+      "true and false": {
+        "question": "T568B wiring scheme places the orange pair first in the connector pinout.",
+        "answer": "true"
+      }
     },
-    "q27": {
-      "type":"Fill in the blank",
-      "question": "",
-      "answer":""
+     "q27": {
+      "question": "Match the proper T568A Pinout with the figure provided [img][t568a_blank]",
+      "fill in the blank": "T568B",
+      "multiple choice": {
+        "A1": "GW,G,OW,BL,BLW,O,BW,B",
+        "A2": "OW,O,GW,G,BL,BLW,B,BW",
+        "A3": "O,OW,G,GW,BL,BLW,B,BW",
+        "A4": "OW,O,GW,G,BL,BLW,BW,B",
+        "A5": "BL,BLW,O,OW,G,GW,B,BW",
+        "A6": "O,OW,BL,BLW,G,GW,BW,B",
+        "A7": "GW,G,O,OW,BL,BLW,B,BW",
+        "A8": "O,OW,GW,G,BL,BLW,B,BW",
+        "Answer": "A5"
+      },
+      "true and false": {
+        "question": "T568A wiring scheme places the orange pair first in the connector pinout.",
+        "answer": "false"
+      }
     },
-    "q28": {
-      "type":"Fill in the blank",
-      "question": "",
-      "answer":""
+    
+       "q28": {
+      "question": "Why is fiber-optic cable not affected by electromagnetic or radio frequency interference (EMI/RFI)?",
+      "fill in the blank": "Because it uses light to transmit signals instead of electricity.",
+      "multiple choice": {
+        "A1": "Because it uses light to transmit signals instead of electricity.",
+        "A2": "Because it uses heavy shielding around the copper wires.",
+        "A3": "Because it operates at lower frequencies than electrical cables.",
+        "A4": "Because it has built-in filters that block interference.",
+        "A5": "Because the cladding layer absorbs external radio waves.",
+        "A6": "Because it transmits power instead of data.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "Fiber-optic cables are immune to EMI and RFI because they use light, not electricity, to transmit signals.",
+        "answer": "true"
+      }
     },
+
     "q29": {
-      "type":"Fill in the blank",
-      "question": "",
-      "answer":""
+      "question": "What are two key advantages of fiber-optic cables compared to copper cables?",
+      "fill in the blank": "They carry clearer signals over longer distances with greater bandwidth.",
+      "multiple choice": {
+        "A1": "They carry clearer signals over longer distances with greater bandwidth.",
+        "A2": "They are cheaper and easier to install than copper cables.",
+        "A3": "They are thicker and can carry more electrical current.",
+        "A4": "They require no connectors or termination points.",
+        "A5": "They can only be used for short indoor runs.",
+        "A6": "They rely on electromagnetic fields for higher capacity.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "Fiber-optic cables can transmit data over longer distances and with greater bandwidth than copper cables.",
+        "answer": "true"
+      }
+    },
+
+    "q30": {
+      "question": "Despite being very thin, why are optical fibers considered durable and strong?",
+      "fill in the blank": "Because the properties of the core and cladding make them strong and resistant to damage.",
+      "multiple choice": {
+        "A1": "Because the properties of the core and cladding make them strong and resistant to damage.",
+        "A2": "Because they contain a steel wire running through the center.",
+        "A3": "Because they are coated with layers of copper shielding.",
+        "A4": "Because they are made of flexible plastic instead of glass.",
+        "A5": "Because they are thicker than copper cables.",
+        "A6": "Because they are filled with gel that prevents breakage.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "Optical fibers are durable because the core and cladding materials provide strength despite their thin size.",
+        "answer": "true"
+      }
+    },
+    "q31": {
+      "question": "In fiber-optic communication, what allows multiple data streams to travel through the same cable at the same time?",
+      "fill in the blank": "Wavelength Division Multiplexing (WDM)",
+      "multiple choice": {
+        "A1": "Signal Reflection Modulation (SRM)",
+        "A2": "Pulse Density Encoding (PDE)",
+        "A3": "Frequency Division Modulation (FDM)",
+        "A4": "Wavelength Division Multiplexing (WDM)",
+        "A5": "Binary Amplitude Signaling (BAS)",
+        "A6": "Optical Phase Separation (OPS)",
+        "Answer": "A4"
+      },
+      "true and false": {
+        "question": "Wavelength Division Multiplexing (WDM) allows multiple data streams to be transmitted simultaneously over a single optical fiber using different light wavelengths.",
+        "answer": "true"
+      }
+    },
+        "q32": {
+      "question": "What is the purpose of the jacket in an optical fiber cable?",
+      "fill in the blank": "It protects the fiber from abrasion, moisture, and other contaminants.",
+      "multiple choice": {
+        "A1": "It protects the fiber from abrasion, moisture, and other contaminants.",
+        "A2": "It reflects light back into the fiber core for data transmission.",
+        "A3": "It carries the light signals along the center of the cable.",
+        "A4": "It strengthens the cladding and prevents signal loss.",
+        "A5": "It converts light pulses back into electrical signals.",
+        "A6": "It reduces electromagnetic interference in copper cores.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The outer jacket of an optical fiber cable protects it from abrasion, moisture, and contaminants.",
+        "answer": "true"
+      }
+    },
+    
+     "q33": {
+      "question": "What is the purpose of the strengthening material in an optical fiber cable?",
+      "fill in the blank": "It provides tensile strength and prevents the fiber from breaking when pulled.",
+      "multiple choice": {
+        "A1": "It provides tensile strength and prevents the fiber from breaking when pulled.",
+        "A2": "It directs light into the fiber core for transmission.",
+        "A3": "It reflects light to maintain total internal reflection.",
+        "A4": "It absorbs stray light and converts it into heat.",
+        "A5": "It keeps the core at a stable temperature.",
+        "A6": "It improves signal speed by reducing attenuation.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The strengthening material in an optical fiber cable prevents damage from pulling or bending.",
+        "answer": "true"
+      }
+    },
+
+    "q34": {
+      "question": "What is the function of the buffer layer in an optical fiber cable?",
+      "fill in the blank": "It cushions and protects the fiber core and cladding from physical stress.",
+      "multiple choice": {
+        "A1": "It cushions and protects the fiber core and cladding from physical stress.",
+        "A2": "It carries the optical signal through the center of the fiber.",
+        "A3": "It reflects light back toward the core.",
+        "A4": "It provides tensile strength to the cable.",
+        "A5": "It prevents electromagnetic interference.",
+        "A6": "It increases bandwidth by separating wavelengths.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The buffer layer protects the core and cladding from mechanical damage or bending stress.",
+        "answer": "true"
+      }
+    },
+
+    "q35": {
+      "question": "What is the purpose of the cladding in an optical fiber cable?",
+      "fill in the blank": "It reflects light back into the core to maintain total internal reflection.",
+      "multiple choice": {
+        "A1": "It reflects light back into the core to maintain total internal reflection.",
+        "A2": "It protects the cable from moisture and abrasion.",
+        "A3": "It carries the main optical signal through the fiber.",
+        "A4": "It converts light back into electrical signals.",
+        "A5": "It provides tensile strength for pulling and installation.",
+        "A6": "It reduces electrical interference from nearby cables.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The cladding layer keeps the light contained in the core through total internal reflection.",
+        "answer": "true"
+      }
+    },
+
+    "q36": {
+      "question": "What is the role of the core in an optical fiber cable?",
+      "fill in the blank": "It is the central glass region that carries the light signals.",
+      "multiple choice": {
+        "A1": "It is the central glass region that carries the light signals.",
+        "A2": "It provides protection against moisture and heat.",
+        "A3": "It reflects light back to the source to prevent loss.",
+        "A4": "It strengthens the outer layers of the fiber.",
+        "A5": "It contains metallic wires that conduct the signal.",
+        "A6": "It absorbs unwanted wavelengths of light.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The core is the central part of the optical fiber where light travels to transmit data.",
+        "answer": "true"
+      }
+    },
+
+        "q37": {
+      "question": "What is the main difference between Single-Mode Fiber (SMF) and Multi-Mode Fiber (MMF)?",
+      "fill in the blank": "SMF uses a small core and a laser light source; MMF uses a larger core and an LED light source.",
+      "multiple choice": {
+        "A1": "SMF uses a small core and a laser light source; MMF uses a larger core and an LED light source.",
+        "A2": "SMF uses copper conductors while MMF uses glass.",
+        "A3": "SMF carries multiple light paths while MMF carries only one.",
+        "A4": "SMF is only used for LANs, while MMF is used for long-distance telephony.",
+        "A5": "SMF uses thicker cladding to reduce dispersion; MMF has none.",
+        "A6": "SMF and MMF both use the same light source but have different coatings.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "Single-mode fiber uses a laser and a small core to transmit one path of light, while multi-mode fiber uses LEDs and a larger core for multiple light paths.",
+        "answer": "true"
+      }
+    },
+
+    "q38": {
+      "question": "What is the typical glass core diameter of a single-mode fiber cable?",
+      "fill in the blank": "9 microns",
+      "multiple choice": {
+        "A1": "9 microns",
+        "A2": "50 microns",
+        "A3": "62.5 microns",
+        "A4": "125 microns",
+        "A5": "100 microns",
+        "A6": "25 microns",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The core diameter of a single-mode fiber is typically 9 microns.",
+        "answer": "true"
+      }
+    },
+
+    "q39": {
+      "question": "What is the typical glass core diameter of a multimode fiber cable?",
+      "fill in the blank": "50 or 62.5 microns",
+      "multiple choice": {
+        "A1": "9 microns",
+        "A2": "25 microns",
+        "A3": "50 or 62.5 microns",
+        "A4": "100 microns",
+        "A5": "125 microns",
+        "A6": "200 microns",
+        "Answer": "A3"
+      },
+      "true and false": {
+        "question": "A multimode fiber typically has a core diameter of 50 or 62.5 microns.",
+        "answer": "true"
+      }
+    },
+
+    "q40": {
+      "question": "Which type of fiber is better suited for long-distance communication over several kilometers?",
+      "fill in the blank": "Single-mode fiber (SMF)",
+      "multiple choice": {
+        "A1": "Single-mode fiber (SMF)",
+        "A2": "Multi-mode fiber (MMF)",
+        "A3": "Plastic optical fiber (POF)",
+        "A4": "Coaxial cable",
+        "A5": "Category 6A twisted pair",
+        "A6": "Shielded twisted pair (STP)",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "Single-mode fiber is used for long-distance communication because it produces a single straight light path with minimal dispersion.",
+        "answer": "true"
+      }
+    },
+
+    "q41": {
+      "question": "Which type of fiber is commonly used in LANs and supports distances of a few hundred meters?",
+      "fill in the blank": "Multi-mode fiber (MMF)",
+      "multiple choice": {
+        "A1": "Single-mode fiber (SMF)",
+        "A2": "Multi-mode fiber (MMF)",
+        "A3": "Plastic optical fiber (POF)",
+        "A4": "Shielded twisted pair (STP)",
+        "A5": "Unshielded twisted pair (UTP)",
+        "A6": "Coaxial cable",
+        "Answer": "A2"
+      },
+      "true and false": {
+        "question": "Multi-mode fiber is used in LAN environments and shorter campus runs because it uses low-cost LED transmitters.",
+        "answer": "true"
+      }
+    },
+
+    "q42": {
+      "question": "[img][straighttipconnector.jpg] Identify the fiber-optic connector that uses a twist-on/twist-off bayonet-style locking mechanism.",
+      "fill in the blank": "Straight-Tip (ST) Connector",
+      "multiple choice": {
+        "A1": "Straight-Tip (ST) Connector",
+        "A2": "Subscriber Connector (SC)",
+        "A3": "Lucent Connector (LC)",
+        "A4": "Duplex LC Connector",
+        "A5": "RJ-45 Connector",
+        "A6": "F-Type Coax Connector",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The Straight-Tip (ST) connector uses a bayonet-style twist-on/twist-off locking mechanism.",
+        "answer": "true"
+      }
+    },
+
+    "q43": {
+      "question": "[img][subscriberconnector.jpg] Identify the fiber-optic connector that uses a push-pull mechanism and is widely adopted for LAN and WAN connections.",
+      "fill in the blank": "Subscriber Connector (SC)",
+      "multiple choice": {
+        "A1": "Straight-Tip (ST) Connector",
+        "A2": "Subscriber Connector (SC)",
+        "A3": "Lucent Connector (LC)",
+        "A4": "Duplex LC Connector",
+        "A5": "RJ-11 Connector",
+        "A6": "BNC Connector",
+        "Answer": "A2"
+      },
+      "true and false": {
+        "question": "The Subscriber Connector (SC) is a push-pull type connector commonly used in LAN and WAN networks.",
+        "answer": "true"
+      }
+    },
+
+    "q44": {
+      "question": "[img][duplexmultimodelcconnector.jpg] Identify the fiber-optic connector that combines two fibers for full-duplex communication in a single connector housing.",
+      "fill in the blank": "Duplex Multimode LC Connector",
+      "multiple choice": {
+        "A1": "Straight-Tip (ST) Connector",
+        "A2": "Subscriber Connector (SC)",
+        "A3": "Lucent Connector (LC)",
+        "A4": "Duplex Multimode LC Connector",
+        "A5": "Simplex LC Connector",
+        "A6": "MT-RJ Connector",
+        "Answer": "A4"
+      },
+      "true and false": {
+        "question": "A Duplex Multimode LC connector combines two LC connectors in a single housing to allow full-duplex transmission.",
+        "answer": "true"
+      }
     },
     
     
