@@ -1,0 +1,313 @@
+{
+  "class label": "IT I",
+  "class code": "Comp1151",
+  "Quiz #": 1,
+  "default mark weight": "5%",
+  "section 1": {
+        "details": {
+    "title": "Copper Cables and Connectors",
+      "section":"5.4.1"
+    },
+    "empty": {
+      "type": "",
+      "question": "",
+      "answer":""
+    },
+    
+      "q1": {
+      "type": "Fill in the blank",
+      "question": "What is coaxial cables usually made of?",
+      "answer":"Copper and Aluminum"
+    },
+     "q2": {
+      "type": "Fill in the blank",
+      "question": "Who primarily uses coaxial cables?",
+      "a":"cable television companies and satellite communication systems."
+    },
+     "q3": {
+      "type": "Fill in the blank",
+      "question": "A coaxial cable is enclosed in what?",
+      "answer":"A sheeth or jacket"
+    },
+    "q4": {
+      "type": "Fill in the blank",
+      "question": "Does a coaxial cable have a higher or lower signal to noise ratio then unshielded twisted pair, and why?",
+      "answer":"Yes it does, bcause it has an insulating jacket to protect it from unwanted noise. This is a Braided copper shielding."
+    },
+    "q5": {
+      "type":"Fill in the blank",
+      "question": "Can coaxial carry more data then untwisted pair? Explain your answer",
+      "answer": "Yes, because of the sheilding."
+    },
+    "q6": {
+      "type":"Fill in the blank",
+      "question": "Why has twisted pair replaced coaxial in LANS?",
+      "answer":"Coax is physically harder to install, more expensive and harder to troubleshoot."
+    },
+    "q7": {
+      "type":"Fill in the blank",
+      "question": "[img][coaxialconnector.jpg] Fill in the blank labels",
+      "answer":"Outer Jacket, Braided Copper Sheilding, Plastic Insulation, Copper Conductor"
+    },
+    "q8": {
+      "type":"Fill in the blank",
+      "question": "[img][BNCconnector.jpg] [img][ntypeconnector.jpg] [img][ftypeconnector.jpg] Match the connector with the proper name",
+      "answer":"BNC, N type, F type"
+    },
+    "q9": {
+      "type":"Fill in the blank",
+      "question": "What are twisted-pair cables used for?",
+      "answer":"Telepone communications and most Ethernet networks."
+    },
+    "q11": {
+      "question": "What is cross talk, and how do Twisted-'pair cables prevent this?",
+      "fill in the blank":"Cross talk is when signals for adjacent pairs for wires generate noise. Because each pair of wires is twisted, the electromagnetic fields they produce cancel out over short distances. By twisting the two conductors together, the direction of the interference flips with every twist. So, the induced noise from one part of the twist is canceled by the next, since it’s equal in magnitude but opposite in polarity. ",
+      "multiple choice": {
+        "A1": "Crosstalk is when one cable’s signal reflects back into itself. Twisted-pair cables prevent it by twisting to match the impedance of the line.",
+        "A2": "Crosstalk is static caused by moisture or poor grounding. Twisted-pair cables prevent it by using waterproof insulation to block noise.",
+        "A3": "Crosstalk is when too many users share a network line. Twisted-pair cables stop it by using tighter insulation around each conductor.",
+        "A4": "Crosstalk is when the electrical current weakens over distance. Twisted-pair cables prevent this by twisting to reduce resistance and maintain voltage.",
+        "A5": "Crosstalk is when two devices transmit at the same time. Twisted-pair cables stop it by separating each signal onto different frequencies.",
+        "A6": "Crosstalk is when signals from one pair interfere with another. Twisted-pair cables prevent it by reversing the wire positions so electromagnetic fields cancel each other out.",
+        "Answer":"A6"
+      }
+    },
+    "q12": {
+      "question": "What is the most common variety of twisted-pair cabling",
+      "fill in the blank": "Unshielded twisted-pair (UTP)",
+        "multiple choice": {
+          "A1": "Shielded twisted-pair (STP)",
+          "A2": "Unshielded twisted-pair (UTP)",
+          "A3": "Coaxial cable",
+          "A4": "Fiber-optic cable",
+          "A5": "Plenum-rated cable ",
+          "A6": "Direct-burial cable",
+          "Answer": "A2"
+      }
+    },
+    "q13": {
+      "question": "UTP protects against electromagnetic interference (EMI) and/or radio frequency interference (RFI)",
+      "fill in the blank": "False",
+      "multiple choice": {
+      "A1": "True – the twisting of UTP wires completely blocks external interference.",
+      "A2": "True – UTP has an internal foil shield around each wire pair.",
+      "A3": "True – UTP includes both shielding and grounding to reduce interference.",
+      "A4": "False – UTP has no shielding and relies only on twisting to reduce, not block, interference.",
+      "A5": "False – UTP prevents interference through fiber-optic isolation.",
+      "A6": "False – UTP includes a metal braid that cancels external signals.",
+      "Answer": "A4"
+      },
+      "true and false": "False"
+    },
+    "q14": {
+      "question": "UTP cable consists of how many pairs of color-coded wires that have been twisted together and then encased in a flexible plastic sheath that protects from minor physical damage.",
+      "fill in the blank": "4",
+      "multiple choice": {
+        "A1": "2",
+        "A2": "4",
+        "A3": "6",
+        "A4": "8",
+        "A5": "10",
+        "A6": "12",
+        "Answer": "A2"
+      },
+      "true and false": ""
+    },
+  "q15": {
+      "question": "Shielded twisted-pair (STP) was designed to provide better protection against EMI and RFI.",
+      "fill in the blank": "true",
+      "multiple choice": {
+        "A1": "True – STP includes shielding that helps block external interference such as EMI and RFI.",
+        "A2": "False – STP does not use any shielding and relies only on twisting like UTP.",
+        "A3": "False – STP is mainly designed for long-distance transmission, not interference protection.",
+        "A4": "False – STP is a type of fiber-optic cabling that prevents signal loss.",
+        "A5": "False – STP cables are unshielded and primarily used for home telephone wiring.",
+        "A6": "False – STP cables reduce crosstalk but are unaffected by EMI or RFI.",
+        "Answer": "A1"
+      },
+      "true and false": "true"
+    },
+    "q16": {
+      "question": "Each Shielded twisted-pair (STP) wrapped in their own internal foil shield.",
+      "fill in the blank": "true",
+      "multiple choice": {
+        "A1": "true",
+        "A2": "false",
+        "A3": "maybe",
+        "A4": "I dont know",
+        "A5": "Doesn't apply",
+        "A6": "There is no such thing as shielded twised-pair",
+        "Answer": "A1"
+      },
+      "true and false": "true"
+    },
+    
+    "q17": {
+      "question": "The pairs of twisted wires in a Shielded twisted-pair (STP) are only shelided once, one for each pair.",
+      "fill in the blank": "false",
+      "multiple choice": {
+        "A1": "true",
+        "A2": "false",
+        "A3": "maybe",
+        "A4": "I dont know",
+        "A5": "Doesn't apply",
+        "A6": "There is no such thing as shielded twised-pair",
+        "Answer": "A2"
+      },
+      "true and false": "false"
+    },
+
+    
+       "q18": {
+      "question": "Both UTP and STP cables are terminated with what type of connector?",
+      "fill in the blank": "RJ-45",
+      "multiple choice": {
+        "A1": "RJ-45",
+        "A2": "RJ-11",
+        "A3": "USB Type-A",
+        "A4": "Coaxial BNC",
+        "A5": "Fiber LC",
+        "A6": "HDMI",
+        "Answer": "A1"
+      },
+      "true and false": "true"
+    },
+
+    "q19": {
+      "question": "Compared to UTP cable, STP cable is significantly more expensive and difficult to install.",
+      "fill in the blank": "true",
+      "multiple choice": {
+        "A1": "true",
+        "A2": "false",
+        "A3": "only when installed outdoors",
+        "A4": "only when used in short distances",
+        "A5": "only when used for fiber systems",
+        "A6": "depends on the network speed",
+        "Answer": "A1"
+      },
+      "true and false": "true"
+    },
+
+    "q20": {
+      "question": "If a Shielded twisted-pair (STP) cable is improperly grounded, what can happen?",
+      "fill in the blank": "The shield may act as an antenna and pick up unwanted signals.",
+      "multiple choice": {
+        "A1": "The shield may act as an antenna and pick up unwanted signals.",
+        "A2": "The cable will automatically block all interference.",
+        "A3": "The signal strength will permanently increase.",
+        "A4": "The cable will lose its physical shielding.",
+        "A5": "The connector will short out the signal pairs.",
+        "A6": "The shield will convert EMI into usable data.",
+        "Answer": "A1"
+      },
+      "true and false": "true"
+    },
+
+    
+
+       "q21": {
+      "question": "What is the maximum distance limitation for UTP cabling used for data?",
+      "fill in the blank": "100 meters (330 feet)",
+      "multiple choice": {
+        "A1": "10 meters (33 feet)",
+        "A2": "50 meters (165 feet)",
+        "A3": "75 meters (250 feet)",
+        "A4": "100 meters (330 feet)",
+        "A5": "150 meters (500 feet)",
+        "A6": "200 meters (660 feet)",
+        "Answer": "A4"
+      },
+      "true and false": {
+        "question":"Is the maximum distance limitation for UTP cabling used for data 330 meters?",
+        "answer":"false"
+      }
+    },
+
+    "q22": {
+      "question": "What speed and frequency does Category 5e (Cat 5e) UTP cable support?",
+      "fill in the blank": "1 Gb/s at 100 MHz",
+      "multiple choice": {
+        "A1": "100 Mb/s at 100 MHz",
+        "A2": "1 Gb/s at 100 MHz",
+        "A3": "1 Gb/s at 250 MHz",
+        "A4": "10 Gb/s at 500 MHz",
+        "A5": "100 Mb/s at 250 MHz",
+        "A6": "10 Gb/s at 1 GHz",
+        "Answer": "A2"
+      },
+   "true and false": {
+        "question":"Category 5e (Cat 5e) UTP cable supports 100 Mb/s at 100 MHz",
+        "answer":"true"
+      }
+    },
+
+    "q23": {
+      "question": "Which feature helps Cat 6 UTP cables reduce EMI and RFI better than Cat 5e?",
+      "fill in the blank": "A plastic divider that separates wire pairs inside the cable.",
+      "multiple choice": {
+        "A1": "Thicker copper core conductors.",
+        "A2": "A plastic divider that separates wire pairs inside the cable.",
+        "A3": "Extra outer insulation made of foil wrap.",
+        "A4": "Built-in ferrite filters at both ends.",
+        "A5": "Braided metal shielding over each conductor.",
+        "A6": "Additional grounding wire inside the jacket.",
+        "Answer": "A2"
+      },
+   "true and false": {
+        "question":"A plastic divider helps cat 6 UTP cables reduce EMI and RFI better than Cat 5e.",
+        "answer":"true"
+    },
+
+    "q24": {
+      "question": "What is special about plenum-rated UTP cables?",
+      "fill in the blank": "They are made from plastic that retards fire and produces less smoke.",
+      "multiple choice": {
+        "A1": "They are made from plastic that retards fire and produces less smoke.",
+        "A2": "They are waterproof and designed for outdoor burial.",
+        "A3": "They include an internal copper braid for extra shielding.",
+        "A4": "They are designed for high-speed data centers only.",
+        "A5": "They use glass fibers instead of copper conductors.",
+        "A6": "They require special connectors that vent heat.",
+        "Answer": "A1"
+      },
+   "true and false": {
+        "question":"Plenum-rated UTP cables include internal copper braid for extra sheliding",
+        "answer":"false"
+    },
+    
+    "q25": {
+      "type":"Fill in the blank",
+      "question": "",
+      "answer":""
+    },
+    "q26": {
+      "type":"Fill in the blank",
+      "question": "",
+      "answer":""
+    },
+    "q27": {
+      "type":"Fill in the blank",
+      "question": "",
+      "answer":""
+    },
+    "q28": {
+      "type":"Fill in the blank",
+      "question": "",
+      "answer":""
+    },
+    "q29": {
+      "type":"Fill in the blank",
+      "question": "",
+      "answer":""
+    },
+    
+    
+
+       "delete me after, just used so i can copy paste with comas and not get an error (this closes them)": {
+        "type": "",
+    "question": "",
+      "answer":""
+    }
+    
+  }
+}}}
