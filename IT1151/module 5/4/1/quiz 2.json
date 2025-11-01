@@ -1,0 +1,665 @@
+{
+  "class label": "IT I",
+  "class code": "Comp1151",
+  "Quiz #": 2,
+  "default mark weight": "5%",
+  "section 1": {
+        "q1": {
+      "question": "Which smart home wireless technology has an open standard that allows up to 232 devices to be connected?",
+      "fill in the blank": "Z-Wave",
+      "multiple choice": {
+        "A1": "Bluetooth",
+        "A2": "Wi-Fi",
+        "A3": "Zigbee",
+        "A4": "Z-Wave",
+        "A5": "Thread",
+        "A6": "NFC",
+        "Answer": "A4"
+      },
+      "true and false": {
+        "question": "Z-Wave is an open standard smart home wireless technology that supports up to 232 connected devices.",
+        "answer": "true"
+      }
+    },
+        "q2": {
+      "question": "Which device provides wireless connectivity to users as its primary function?",
+      "fill in the blank": "Access Point",
+      "multiple choice": {
+        "A1": "Modem",
+        "A2": "Router",
+        "A3": "Switch",
+        "A4": "Access Point",
+        "A5": "Bridge",
+        "A6": "Repeater",
+        "Answer": "A4"
+      },
+      "true and false": {
+        "question": "An access point provides wireless connectivity to users as its primary function.",
+        "answer": "true"
+      }
+    },
+        "q3": {
+      "question": "Which IEEE standard operates at wireless frequencies in both the 5 GHz and 2.4 GHz ranges?",
+      "fill in the blank": "802.11n",
+      "multiple choice": {
+        "A1": "802.11n",
+        "A2": "802.11g",
+        "A3": "802.11b",
+        "A4": "802.11a",
+        "A5": "802.11ac",
+        "A6": "802.11ax",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "The IEEE 802.11n standard can operate in both the 2.4 GHz and 5 GHz frequency ranges.",
+        "answer": "true"
+      }
+    },
+
+     "q4": {
+      "question": "What easy way can you remember that 802.11n works on both 2.4 GHz and 5 GHz?",
+      "fill in the blank": "N for Neutral — it doesn’t pick sides.",
+      "multiple choice": {
+        "A1": "N for Neutral — it doesn’t pick sides.",
+        "A2": "N for Narrowband — it only uses one range.",
+        "A3": "N for New — it replaces both a and b completely.",
+        "A4": "N for North — it operates on higher frequencies only.",
+        "A5": "N for Node — it connects only older devices.",
+        "A6": "N for Network — it requires both wired and wireless.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "You can remember that 802.11n uses both 2.4 and 5 GHz by thinking 'N for Neutral — it doesn’t pick sides.'",
+        "answer": "true"
+      }
+    },
+
+      "q4": {
+      "question": "What is an easy mnemonic to remember the release order of Wi-Fi standards: 802.11b, 802.11a, 802.11g, and 802.11n?",
+      "fill in the blank": "Think 'Before Anyone Goes Networking' (b → a → g → n).",
+      "multiple choice": {
+        "A1": "Think 'Before Anyone Goes Networking' (b → a → g → n).",
+        "A2": "Think 'Big Antennas Get Noisy' (b → a → g → n).",
+        "A3": "Think 'Build And Grow Now' (b → a → g → n).",
+        "A4": "Think 'Begin After Great Noise' (b → a → g → n).",
+        "A5": "Think 'Broad Access Grows Naturally' (b → a → g → n).",
+        "A6": "Think 'Bands Align Gradually Narrow' (b → a → g → n).",
+        "Answer": "A1,A2,A3,A4,A5,A6"
+      },
+      "true and false": {
+        "question": "You can remember the order of Wi-Fi standards (b, a, g, n) with the phrase 'Before Anyone Goes Networking.'",
+        "answer": "true"
+      }
+    },
+    "q5": {
+      "question": "Which network device makes forwarding decisions based on the destination MAC address that is contained in the frame?",
+      "fill in the blank": "Switch",
+      "multiple choice": {
+        "A1": "Repeater",
+        "A2": "Hub",
+        "A3": "Switch",
+        "A4": "Router",
+        "A5": "Bridge",
+        "A6": "Access Point",
+        "Answer": "A3"
+      },
+      "true and false": {
+        "question": "A network switch makes forwarding decisions based on the destination MAC address within a frame.",
+        "answer": "true"
+      }
+    },
+    
+        "q6": {
+      "question": "Which type of connection to the Internet is capable of the fastest transfer rates?",
+      "fill in the blank": "Fiber",
+      "multiple choice": {
+        "A1": "ISDN",
+        "A2": "POTS",
+        "A3": "Satellite",
+        "A4": "Cable",
+        "A5": "Fiber",
+        "A6": "DSL",
+        "Answer": "A5"
+      },
+      "true and false": {
+        "question": "Fiber Internet connections provide the fastest transfer rates compared to ISDN, POTS, Satellite, or Cable.",
+        "answer": "true"
+      }
+    },
+        "q7": {
+      "question": "When would a printer be considered a network host?",
+      "fill in the blank": "When it is connected to a switch",
+      "multiple choice": {
+        "A1": "When it is connected to a switch",
+        "A2": "When it is connected to a workstation",
+        "A3": "When it is connected to a laptop",
+        "A4": "When it is connected to a PC",
+        "A5": "When it is connected through USB only",
+        "A6": "When it is connected via Bluetooth only",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "A printer is considered a network host when it is connected to a network device such as a switch and can communicate over the network.",
+        "answer": "true"
+      }
+    },
+     "q8": {
+      "question": "Which type of server would be used to keep a historical record of messages from monitored network devices?",
+      "fill in the blank": "Syslog",
+      "multiple choice": {
+        "A1": "DHCP",
+        "A2": "DNS",
+        "A3": "Print",
+        "A4": "Authentication",
+        "A5": "Syslog",
+        "A6": "Mail",
+        "Answer": "A5"
+      },
+      "true and false": {
+        "question": "A syslog server collects and stores log messages from network devices for historical and troubleshooting purposes.",
+        "answer": "true"
+      }
+    },
+
+    "q9": {
+      "question": "What is the function of a syslog server in a network?",
+      "fill in the blank": "It receives, stores, and manages log messages from devices like routers, switches, and firewalls.",
+      "multiple choice": {
+        "A1": "It receives, stores, and manages log messages from devices like routers, switches, and firewalls.",
+        "A2": "It assigns IP addresses dynamically to network devices.",
+        "A3": "It translates domain names into IP addresses.",
+        "A4": "It manages user authentication credentials.",
+        "A5": "It distributes print jobs to multiple printers.",
+        "A6": "It handles encryption of web traffic for secure access.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "A syslog server is a dedicated system that receives and archives log data from other network devices.",
+        "answer": "true"
+      }
+    },
+        "q10": {
+      "question": "Which type of server would support the SMTP, POP, and IMAP protocols?",
+      "fill in the blank": "Email",
+      "multiple choice": {
+        "A1": "DHCP",
+        "A2": "Email",
+        "A3": "Proxy",
+        "A4": "Syslog",
+        "A5": "DNS",
+        "A6": "Authentication",
+        "Answer": "A2"
+      },
+      "true and false": {
+        "question": "An email server supports the SMTP, POP, and IMAP protocols for sending and receiving messages.",
+        "answer": "true"
+      }
+    },
+        "q11": {
+      "question": "Which modern satellite internet service can provide speeds up to about 100 Mbps and much lower latency than traditional geostationary satellites?",
+      "fill in the blank": "LEO (Low Earth Orbit)",
+      "multiple choice": {
+        "A1": "DSL",
+        "A2": "Broadband",
+        "A3": "ADSL",
+        "A4": "LEO",
+        "A5": "Fiber",
+        "A6": "Microwave",
+        "Answer": "A4"
+      },
+      "true and false": {
+        "question": "LEO satellite systems provide higher speeds and lower latency than traditional geostationary satellite internet services.",
+        "answer": "true"
+      }
+    },
+       "q12": {
+      "question": "Which internet connection type is an always-on service that uses radio signals sent from a tower to a receiver in a home or business?",
+      "fill in the blank": "Line of sight wireless",
+      "multiple choice": {
+        "A1": "Line of sight wireless",
+        "A2": "Satellite",
+        "A3": "Hotspot",
+        "A4": "Cellular",
+        "A5": "Fiber",
+        "A6": "Broadband",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "Line of sight wireless internet uses radio signals transmitted directly from a tower to a receiver and provides an always-on connection.",
+        "answer": "true"
+      }
+    },
+        "q13": {
+      "question": "What is a feature of a dial-up connection?",
+      "fill in the blank": "The use of an analog modem to transmit data over voice telephone lines.",
+      "multiple choice": {
+        "A1": "The use of an analog modem to transmit data over voice telephone lines.",
+        "A2": "The use of different frequencies to send multiple signals over the same medium.",
+        "A3": "The use of multiple channels which can carry different types of services.",
+        "A4": "The use of different frequencies to carry voice and data signals on the copper telephone wire.",
+        "A5": "The use of radio signals to connect wirelessly to a tower.",
+        "A6": "The use of fiber optics for high-speed data transmission.",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "A dial-up connection uses an analog modem to transmit data over standard voice telephone lines.",
+        "answer": "true"
+      }
+    },
+     "q14": {
+      "question": "Which device acts as a termination point for cable runs and keeps cables secure and safely out of walkways?",
+      "fill in the blank": "Patch panel",
+      "multiple choice": {
+        "A1": "Patch panel",
+        "A2": "UTM",
+        "A3": "KVM switch",
+        "A4": "Access point",
+        "A5": "Router",
+        "A6": "Switch",
+        "Answer": "A1"
+      },
+      "true and false": {
+        "question": "A patch panel acts as a termination point for cable runs and keeps cables organized, secure, and out of walkways.",
+        "answer": "true"
+      }
+    },
+        "q15": {
+      "question": "Which two devices are commonly powered by PoE? (Choose two.)",
+      "fill in the blank": "Access point and IP phone",
+      "multiple choice": {
+        "A1": "Access point",
+        "A2": "Core switch",
+        "A3": "IP phone",
+        "A4": "Modular switch",
+        "A5": "Router",
+        "A6": "Printer",
+        "Answer": ["A1", "A3"],
+        "MultipleSelection": 2
+      },
+      "true and false": {
+        "question": "Access points and IP phones are common devices powered through Power over Ethernet (PoE).",
+        "answer": "true"
+      }
+    },
+    "q16": {
+      "question": "A network specialist has been hired to install a network in a company that assembles airplane engines. Because of the nature of the business, the area is highly affected by electromagnetic interference. Which type of network media should be recommended so that the data communication will not be affected by EMI?",
+      "fill in the blank": "Fiber optic",
+      "multiple choice": {
+        "A1": "STP",
+        "A2": "Coaxial",
+        "A3": "Fiber optic",
+        "A4": "UTP",
+        "A5": "Plenum-rated UTP",
+        "A6": "Shielded coaxial",
+        "Answer": "A3",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "Fiber-optic cable is immune to electromagnetic interference (EMI) because it uses light to transmit data instead of electrical signals.",
+        "answer": "true"
+      }
+    },
+ "q17": {
+      "question": "A technician with a PC is using multiple applications while connected to the Internet. How is the PC able to keep track of the data flow between multiple application sessions and have each application receive the correct packet flows?",
+      "fill in the blank": "The data flow is being tracked based on the source port number that is used by each application.",
+      "multiple choice": {
+        "A1": "The data flow is being tracked based on the destination MAC address of the technician PC.",
+        "A2": "The data flow is being tracked based on the source port number that is used by each application.",
+        "A3": "The data flow is being tracked based on the source IP address that is used by the PC of the technician.",
+        "A4": "The data flow is being tracked based on the destination IP address that is used by the PC of the technician.",
+        "A5": "The data flow is being tracked based on the network interface card (NIC) used by each application.",
+        "A6": "The data flow is being tracked based on the session ID generated by the DNS server.",
+        "Answer": "A2",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "Each application on a PC uses a unique source port number to track its session and correctly route packets between multiple connections.",
+        "answer": "true"
+      }
+    },
+"q18": {
+      "question": "Which technology is most often used to connect devices to a PAN?",
+      "fill in the blank": "Bluetooth",
+      "multiple choice": {
+        "A1": "Coaxial cabling",
+        "A2": "Bluetooth",
+        "A3": "Fiber optic cabling",
+        "A4": "IEEE 802.11n wireless",
+        "A5": "Infrared",
+        "A6": "NFC",
+        "Answer": "A2",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "Bluetooth is the most common technology used to connect devices within a personal area network (PAN).",
+        "answer": "true"
+      }
+    },
+      "q19": {
+      "question": "What type of connector is used to connect an analog modem to a telephone line socket?",
+      "fill in the blank": "RJ-11",
+      "multiple choice": {
+        "A1": "RJ-11",
+        "A2": "RJ-45",
+        "A3": "BNC",
+        "A4": "ST",
+        "A5": "SC",
+        "A6": "LC",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "An analog modem connects to a telephone line socket using an RJ-11 connector.",
+        "answer": "true"
+      }
+    },
+"q20": {
+      "question": "What is the correct order of the layers of the TCP/IP model from the top layer to the bottom?",
+      "fill in the blank": "Application, Transport, Internet, Network Access",
+      "multiple choice": {
+        "A1": "Application, Session, Network, Data Link, Physical",
+        "A2": "Application, Internet, Network Access, Transport",
+        "A3": "Network Access, Transport, Internet, Application",
+        "A4": "Application, Transport, Internet, Network Access",
+        "A5": "Transport, Application, Internet, Network Access",
+        "A6": "Application, Transport, Data Link, Physical",
+        "Answer": "A4",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "In the TCP/IP model, the correct order from top to bottom is Application, Transport, Internet, and Network Access.",
+        "answer": "true"
+      }
+    },
+
+    "q21": {
+      "question": "Match each TCP/IP model layer with its main function.",
+      "fill in the blank": "Application – provides services (HTTP, FTP, DNS); Transport – controls data flow (TCP/UDP); Internet – handles addressing and routing (IP); Network Access – manages the physical hardware connection.",
+      "multiple choice": {
+        "A1": "Application – provides services (HTTP, FTP, DNS); Transport – controls data flow (TCP/UDP); Internet – handles addressing and routing (IP); Network Access – manages the physical hardware connection.",
+        "A2": "Application – manages cables; Transport – manages routing; Internet – manages encryption; Network Access – manages web protocols.",
+        "A3": "Application – controls routing; Transport – provides physical connections; Internet – controls user access; Network Access – defines DNS and HTTP.",
+        "A4": "Application – converts analog signals; Transport – handles Wi-Fi; Internet – manages users; Network Access – encodes DNS records.",
+        "A5": "Application – provides user authentication; Transport – stores IP addresses; Internet – ensures encryption; Network Access – provides logical addressing.",
+        "A6": "Application – stores user data; Transport – encrypts sessions; Internet – manages access lists; Network Access – manages cloud connections.",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "Each TCP/IP layer serves a specific function: Application (services), Transport (data flow), Internet (routing), and Network Access (hardware).",
+        "answer": "true"
+      }
+    },
+
+    "q22": {
+      "question": "In the TCP/IP model, which layer is closest to the user and which is closest to the physical medium?",
+      "fill in the blank": "Top = Application (closest to user); Bottom = Network Access (closest to physical medium).",
+      "multiple choice": {
+        "A1": "Top = Application; Bottom = Network Access",
+        "A2": "Top = Transport; Bottom = Internet",
+        "A3": "Top = Internet; Bottom = Application",
+        "A4": "Top = Network Access; Bottom = Application",
+        "A5": "Top = Data Link; Bottom = Transport",
+        "A6": "Top = Application; Bottom = Internet",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "In the TCP/IP model, the Application layer is closest to the user, while the Network Access layer is closest to the physical medium.",
+        "answer": "true"
+      }
+    },
+     "q23": {
+      "question": "Which two types of signal interference are reduced more by STP than by UTP? (Choose two.)",
+      "fill in the blank": "RFI and EMI",
+      "multiple choice": {
+        "A1": "RFI",
+        "A2": "White noise",
+        "A3": "MDF",
+        "A4": "Dispersion",
+        "A5": "EMI",
+        "A6": "Crosstalk",
+        "Answer": ["A1", "A5"],
+        "MultipleSelection": 2
+      },
+      "true and false": {
+        "question": "Shielded twisted-pair (STP) cables reduce radio frequency interference (RFI) and electromagnetic interference (EMI) more effectively than unshielded twisted-pair (UTP) cables.",
+        "answer": "true"
+      }
+    },
+        "q24": {
+      "question": "Which port pair correctly matches its server/client relationship pattern?",
+      "fill in the blank": "68", 
+      "multiple choice": {
+        "A1": "67/68 – later is client", 
+        "A2": "20/21 – erlier is client", 
+        "A3": "52/53 – later is client", 
+        "A4": "79/80 – later is client ", 
+        "A5": "110/25 – erlier is client", 
+        "A6": "161/162 – later is client",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "In the 67/68 port pair used by DHCP, the later port number (68) belongs to the client, while the earlier one (67) belongs to the server.",
+        "answer": "true"
+      }
+    },
+        "q25": {
+      "question": "A client packet is received by a server. The packet has a destination port number of 389. What service application is the client requesting?",
+      "fill in the blank": "LDAP",
+      "multiple choice": {
+        "A1": "LDAP – Lightweight Directory Access Protocol, used for accessing and maintaining distributed directory information services.",
+        "A2": "SMB/CIFS – Server Message Block/Common Internet File System, used for file and printer sharing over a network.",
+        "A3": "HTTPS – Hypertext Transfer Protocol Secure, used for secure web communication.",
+        "A4": "SLP – Service Location Protocol, used for discovering network services automatically.",
+        "A5": "DNS – Domain Name System, used for translating domain names into IP addresses.",
+        "A6": "RDP – Remote Desktop Protocol, used for remote graphical desktop connections.",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "Port 389 is used by the LDAP service for directory access and management on a network.",
+        "answer": "true"
+      }
+    },
+    "q26": {
+      "question": "A technician is searching through a storage locker and finds an Ethernet NIC. What is the purpose of this device?",
+      "fill in the blank": "It is needed to connect a computer to a wired local-area network.",
+      "multiple choice": {
+        "A1": "It is needed to connect a computer to a wired local-area network.",
+        "A2": "It connects a home or business network to a company that provides internet connectivity as well as television signals.",
+        "A3": "It is a device that uses existing electrical wiring to connect devices and sends data using specific frequencies.",
+        "A4": "It is a device that can be inserted in the middle of a cable run to add power.",
+        "A5": "It is used to amplify a wireless signal across multiple floors of a building.",
+        "A6": "It converts optical signals into electrical signals for data transmission.",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "An Ethernet NIC (Network Interface Card) allows a computer to connect to a wired local-area network.",
+        "answer": "true"
+      }
+    },
+    "q27": {
+      "question": "Which network device would be the most appropriate to provide stateful packet filtering, email filtering, and VPN services?",
+      "fill in the blank": "UTM",
+      "multiple choice": {
+        "A1": "TPM",
+        "A2": "Proxy server",
+        "A3": "UTM",
+        "A4": "Endpoint management server",
+        "A5": "Router",
+        "A6": "Firewall appliance",
+        "Answer": "A3",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "A Unified Threat Management (UTM) device provides multiple security functions such as stateful packet filtering, email filtering, and VPN services in a single appliance.",
+        "answer": "true"
+      }
+    },
+    "q28": {
+      "question": "What does UTM stand for, and which set of traits correctly describes a UTM device?",
+      "fill in the blank": "UTM stands for Unified Threat Management. It combines multiple security functions such as firewalling, intrusion detection, VPN, and content filtering into one device.",
+      "multiple choice": {
+        "A1": "Unified Threat Management – combines firewall, intrusion detection, VPN, antivirus, and content filtering features in a single appliance.",
+        "A2": "Universal Transmission Module – improves data throughput, manages network routing, and prioritizes voice traffic for QoS.",
+        "A3": "Unified Transport Mechanism – handles email, file transfer, and remote desktop communication in one protocol stack.",
+        "A4": "Universal Threat Monitor – focuses on passive network monitoring and log collection without blocking or filtering traffic.",
+        "A5": "User Traffic Manager – manages web sessions, balances load, and redirects packets for high-availability systems.",
+        "A6": "Unified Transfer Manager – synchronizes databases, backups, and storage replication between multiple servers.",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "UTM stands for Unified Threat Management and refers to an all-in-one security device that combines multiple protection features such as firewall, intrusion detection, VPN, and filtering.",
+        "answer": "true"
+      }
+    },
+     "q29": {
+      "question": "What is a characteristic of a WAN?",
+      "fill in the blank": "It connects multiple networks that are geographically separated.",
+      "multiple choice": {
+        "A1": "It requires a wireless access point to connect users to the network.",
+        "A2": "It is typically owned and managed by a single home or business.",
+        "A3": "It connects multiple networks that are geographically separated.",
+        "A4": "It spans across a campus or city to enable sharing of regional resources.",
+        "A5": "It operates only within a single building or floor.",
+        "A6": "It requires direct satellite communication for all traffic.",
+        "Answer": "A3",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "A WAN (Wide Area Network) connects multiple smaller networks that are geographically separated.",
+        "answer": "true"
+      }
+    },
+     "q30": {
+      "question": "Which pairs of wires change termination order between the 568A and 568B standards?",
+      "fill in the blank": "Green and orange",
+      "multiple choice": {
+        "A1": "Blue and brown",
+        "A2": "Green and brown",
+        "A3": "Green and orange",
+        "A4": "Brown and orange",
+        "A5": "Blue and orange",
+        "A6": "Green and blue",
+        "Answer": "A3",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "In the T568A and T568B wiring standards, only the green and orange wire pairs switch positions.",
+        "answer": "true"
+      }
+    },
+    "q31": {
+      "question": "What is a common function of a proxy server?",
+      "fill in the blank": "To store frequently accessed web pages on the internal network.",
+      "multiple choice": {
+        "A1": "To store frequently accessed web pages on the internal network.",
+        "A2": "To detect malicious signatures by monitoring traffic that is entering the internal network.",
+        "A3": "To control who is permitted to access the internal network.",
+        "A4": "To provide access to a shared pool of configurable computing resources.",
+        "A5": "To translate private IP addresses into public ones for external communication.",
+        "A6": "To manage routing tables and determine the best path for packets.",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "A proxy server commonly stores and caches frequently accessed web content to improve response time and reduce external bandwidth usage.",
+        "answer": "true"
+      }
+    },
+    "q32": {
+      "question": "Which network device allows administrators to remotely manage many devices through one dashboard interface?",
+      "fill in the blank": "Cloud-based network controller.",
+      "multiple choice": {
+        "A1": "Powerline networking",
+        "A2": "Power over Ethernet (PoE)",
+        "A3": "Cloud-based network controller",
+        "A4": "Switch that supports VLANs",
+        "A5": "Network-attached storage (NAS)",
+        "A6": "Edge router with SNMP support",
+        "Answer": "A3",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "A cloud-based network controller allows administrators to configure, monitor, and manage multiple network devices remotely from a single dashboard.",
+        "answer": "true"
+      }
+    },
+        "q33": {
+      "question": "A user needs to access the Internet from home. Which device is needed if a user connects to an ISP through the telephone network?",
+      "fill in the blank": "DSL modem.",
+      "multiple choice": {
+        "A1": "Switch",
+        "A2": "DSL modem",
+        "A3": "Server",
+        "A4": "Wireless access point",
+        "A5": "Router",
+        "A6": "Cable modem",
+        "Answer": "A2",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "A DSL modem connects a home network to an ISP using existing telephone lines for Internet access.",
+        "answer": "true"
+      }
+    },
+        "q35": {
+      "question": "How many devices can a Bluetooth device connect to simultaneously?",
+      "fill in the blank": "Up to 7 active devices (plus one master) in a single piconet.",
+      "multiple choice": {
+        "A1": "7",
+        "A2": "24",
+        "A3": "10",
+        "A4": "5",
+        "A5": "127",
+        "A6": "15",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "A Bluetooth device can actively connect to up to 7 other devices at once within a single piconet.",
+        "answer": "true"
+      }
+    },
+  "q36": {
+      "question": "A client packet is received by a server. The packet has a destination port number of 143. What service application is the client requesting?",
+      "fill in the blank": "IMAP (Internet Message Access Protocol)",
+      "multiple choice": {
+        "A1": "IMAP",
+        "A2": "HTTPS",
+        "A3": "SMB/CIFS",
+        "A4": "SLP",
+        "A5": "LDAP",
+        "A6": "POP3",
+        "Answer": "A1",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "Port 143 is assigned to the IMAP protocol, which allows clients to access and manage email messages stored on a mail server.",
+        "answer": "true"
+      }
+    },
+ "q37": {
+      "question": "A technician is searching through a storage locker and finds a repeater. What is the purpose of this device?",
+      "fill in the blank": "It is used to regenerate weak signals to extend the distance a signal can travel.",
+      "multiple choice": {
+        "A1": "It is a legacy device that connects end devices and where traffic from one connected device floods out to every other connected device.",
+        "A2": "It connects multiple end devices and can be configured for VLANs and port security.",
+        "A3": "It is a legacy device used to divide LANs into network segments, filtering traffic between those LAN segments.",
+        "A4": "It is used to regenerate weak signals to extend the distance a signal can travel.",
+        "A5": "It converts electrical signals into optical signals for long-distance communication.",
+        "A6": "It encrypts data packets before they are transmitted across a network.",
+        "Answer": "A4",
+        "MultipleSelection": 1
+      },
+      "true and false": {
+        "question": "A repeater regenerates and amplifies weak network signals to extend the distance they can travel without degradation.",
+        "answer": "true"
+      }
+    }
+  }
+}
